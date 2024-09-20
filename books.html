@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Books</title>
+        <link rel="icon" href="assets/reading-book.png">
+        <link rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="header">
+            <a href="home.html" class="header__logo">MyBooks📚</a>
+            <nav class="header__nav">
+                <ul>
+                    <li>
+                        <a href="home.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="books.html">Books</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Add NewBook</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+        <center><h1>Books</h1></center>
+        <table class="table">
+            <thead>
+                <th>ID</th>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Pages</th>
+                <th><img src="assets/star.png" alt="rating"></th>
+            </thead>
+            <tbody id="dataDisplay">
+
+            </tbody>
+        </table>
+        <script src="js/main.js"></script>
+        <script src="js/active.js"></script>
+    </body>
+</html>
